@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+ <link rel="shortcut icon" href="../assets/insta.jpg" type="image/x-icon">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fafafa;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background-color: white;
+      border: 1px solid #dbdbdb;
+      padding: 20px;
+      text-align: center;
+      max-width: 400px;
+      width: 100%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+      width: 200px;
+      margin-bottom: 20px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin-bottom: 8px;
+    }
+
+    input {
+      padding: 10px;
+      margin-bottom: 16px;
+      border: 1px solid #dbdbdb;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    button {
+      background-color: #3897f0;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #1e5f74;
+    }
+    .forgot-password {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #385185;
+      text-decoration: none;
+    }
+
+    .forgot-password:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://images.squarespace-cdn.com/content/v1/58cb2b3d2e69cf53d4690241/1550828186492-VER1YPEEKQK285KCT4AP/IMG_1191.PNG" alt="Instagram Logo" height="" class="logo">
+    <form action="/" method="post">
+      
+      <input type="text" placeholder="Phone number, username or email" id="username" name="username" required>
+
+      <input type="password" placeholder="Password" id="password" name="password" required>
+
+      <button type="submit">Log In</button><hr>
+      <div class="forgot-password">Forgot password</div>
+    </form>
+  </div>
+</body>
+</html>
