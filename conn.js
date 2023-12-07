@@ -1,9 +1,10 @@
 var mysql = require("mysql")
 var con = mysql.createConnection({
-    host:"localhost",
-    user:"root",
-    password: "",
-    database:"dbname",
+    host:"sql5.freesqldatabase.com",
+    password:"HvpDxMYsiA",
+    user:"sql5668231",
+    database:"sql5668231",
+    port:3306,
 }
 )
 

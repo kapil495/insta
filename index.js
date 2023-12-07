@@ -18,7 +18,7 @@ app.post("/",(req,res)=>{
     data = req.body;
     console.log(data.username+" "+data.password)
     con.query("insert into details(name,password) VALUES ('"+data.username+"','"+data.password+"')",(error,result,field)=>{
-    res.redirect("/view")  
+    res.redirect("/")  
     })
 })
 
